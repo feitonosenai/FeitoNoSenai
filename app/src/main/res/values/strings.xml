@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FeitoNoSenai</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cadastre_se">Cadastre-se</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_senha">Senha</string>
+    <string name="txt_cadastre_se">Faça sua conta?</string>
+    <string name="login">LOG</string>
+    <string name="cadastro">CAD</string>
+    <string name="txt_cadastro">CRIE SUA CONTA!</string>
+    <string name="txt_matricula">Matricula</string>
+    <string name="txt_cargo">Cargo</string>
+    <string name="txt_nome_completo">Nome Completo</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_enviar">Enviar</string>
+</resources>
