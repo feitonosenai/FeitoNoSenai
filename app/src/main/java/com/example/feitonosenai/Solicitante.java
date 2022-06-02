@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class Solicitante extends AppCompatActivity {
     private Button abrir_pedido, acompanhar, sair;
 
@@ -14,7 +15,7 @@ public class Solicitante extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_solicitante);
-        abrir_pedido =  findViewById(R.id.btnAbriPedido);
+        abrir_pedido = (Button) findViewById(R.id.btnAbriPedido);
         acompanhar =  findViewById(R.id.btnAcompanhar);
         sair = findViewById(R.id.btnSair);
         abrir_pedido.setOnClickListener(this::novoPedido);
