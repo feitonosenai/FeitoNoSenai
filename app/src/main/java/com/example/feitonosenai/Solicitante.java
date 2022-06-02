@@ -16,8 +16,8 @@ public class Solicitante extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_solicitante);
         abrir_pedido = (Button) findViewById(R.id.btnAbriPedido);
-        acompanhar =  findViewById(R.id.btnAcompanhar);
-        sair = findViewById(R.id.btnSair);
+        acompanhar =  (Button) findViewById(R.id.btnAcompanhar);
+        sair = (Button) findViewById(R.id.btnSair);
         abrir_pedido.setOnClickListener(this::novoPedido);
         acompanhar.setOnClickListener(this::acompanha);
         sair.setOnClickListener(this::sai);

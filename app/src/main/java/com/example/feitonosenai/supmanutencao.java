@@ -14,9 +14,9 @@ public class supmanutencao extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_supmanutencao);
-        abrir_pedido_material =  findViewById(R.id.btnAbriPedidoMaterial);
-        clasificar =  findViewById(R.id.btnCasifica);
-        sair =  findViewById(R.id.btnSair1);
+        abrir_pedido_material = (Button) findViewById(R.id.btnAbriPedidoMaterial);
+        clasificar = (Button) findViewById(R.id.btnCasifica);
+        sair = (Button) findViewById(R.id.btnSair1);
         abrir_pedido_material.setOnClickListener(this::novoPedidoMaterial);
         clasificar.setOnClickListener(this::clasifica);
         sair.setOnClickListener(this::sai);
