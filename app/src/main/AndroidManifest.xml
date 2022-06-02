@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FeitoNoSenai">
         <activity
+            android:name=".AbrirPedidos"
+            android:exported="false" />
+        <activity
             android:name=".Solicitante"
             android:exported="false" />
         <activity
