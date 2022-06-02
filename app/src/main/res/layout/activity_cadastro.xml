@@ -112,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="38dp"
+        android:backgroundTint="#003BD1"
         android:text="@string/btn_voltar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout7" />
@@ -122,6 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="38dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#003bd1"
         android:text="@string/btn_enviar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout7" />

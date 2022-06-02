@@ -49,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#003BD1"
         android:text="@string/btn_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
@@ -59,6 +60,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="#003BD1"
         android:text="@string/btn_cadastre_se"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
