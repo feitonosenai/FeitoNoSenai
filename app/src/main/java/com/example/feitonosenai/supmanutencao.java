@@ -22,7 +22,7 @@ public class supmanutencao extends AppCompatActivity {
         sair.setOnClickListener(this::sai);
     }
     private void novoPedidoMaterial (View view) {
-        Intent intencao = new Intent(this, CadastroActivity.class); // subistituir CadastroActivity pela activity da pagina de abrir pedido material
+        Intent intencao = new Intent(this, abripedidomaterial.class); // subistituir CadastroActivity pela activity da pagina de abrir pedido material
         startActivity(intencao);
     }
     private void clasifica (View view) {

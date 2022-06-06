@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         editor.putString("username", senha.getText().toString());
         editor.apply();
 
-        Intent intencao = new Intent(this, LoginActivity.class);
+        Intent intencao = new Intent(this,supmanutencao.class);
         startActivity(intencao);
     }
 

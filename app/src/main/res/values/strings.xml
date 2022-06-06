@@ -18,5 +18,11 @@
     <string name="btn_sair">SAIR</string>
     <string name="btn_abrir_pedido_material">ABRIR PEDIDO MATERIAL</string>
     <string name="btn_clasificar_pedido">CLASSICAR PEDIDO</string>
+    <string name="txt_materiais">Materiais:</string>
+    <string name="txt_data">DATA</string>
+    <string name="txt_solicitante">Solicitante:</string>
+    <string name="txt_observacao">Observação:</string>
+    <string name="txt_data_solicitada">Data solicitação:</string>
+    <string name="btn_seletor_data">Seletor data</string>
 
 </resources>
