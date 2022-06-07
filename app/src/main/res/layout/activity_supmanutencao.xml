@@ -10,38 +10,35 @@
         android:id="@+id/btnAbriPedidoMaterial"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginEnd="32dp"
+        android:layout_margin="16dp"
         android:backgroundTint="#003BD1"
         android:text="@string/btn_abrir_pedido_material"
+        app:layout_constraintBottom_toTopOf="@+id/btnCasifica"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnCasifica"
         android:layout_width="190dp"
         android:layout_height="48dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_margin="16dp"
         android:backgroundTint="#003BD1"
-        android:text="@string/btn_acompanhar"
+        android:text="@string/btn_clasificar_pedido"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAbriPedidoMaterial" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnSair1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="110dp"
+        android:layout_margin="16dp"
         android:backgroundTint="#003BD1"
         android:text="@string/btn_sair"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCasifica" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
